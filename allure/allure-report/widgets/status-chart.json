@@ -1,0 +1,11 @@
+[ {
+  "uid" : "c190c2c236f3253c",
+  "name" : "TC01_ApplyQAJob",
+  "time" : {
+    "start" : 1636313922985,
+    "stop" : 1636313964477,
+    "duration" : 41492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

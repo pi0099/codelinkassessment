@@ -1,0 +1,52 @@
+{
+  "uid" : "e18f455665375bf3",
+  "name" : "TC01_ApplyQAJob",
+  "fullName" : "TC01_ApplyQAJob.TC01_ApplyQAJob",
+  "historyId" : "9be3f79b2c5f7f62adfb823dcf3237d6",
+  "time" : {
+    "start" : 1636313578155,
+    "stop" : 1636313613791,
+    "duration" : 35636
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "This test has been broken",
+  "statusTrace" : "The specified selector does not match any element in the DOM tree.\n                \n                   | Selector('[class=\"job__description\"]')\n                 > |   .child('a')\n                   |   .withText('/QA QC Manual/Automation to$2k4+1Mo Bonus/')\n                \n                Browser: Chrome 95.0.4638.69 / Windows 10\n                \n                   13 |    await listJobs.with({ visibilityCheck: true })()\n                   14 |}\n                   15 |\n                   16 |export async function openJob(jobTitle) {\n                   17 |    var lnkjobTitle = Selector('[class=\"job__description\"]').child('a').withText(\"/\"+jobTitle+ \"/\")\n                 > 18 |    await t.click(lnkjobTitle)\n                   19 |}\n                   20 |\n                   21 |\n                \n                   at Object.<anonymous> (C:\\Users\\ntlam\\codelinkassessment\\pages\\HomePage.js:18:13)\n                   at asyncGeneratorStep (C:\\Users\\ntlam\\codelinkassessment\\pages\\HomePage.js:2:1239)\n                   at _next (C:\\Users\\ntlam\\codelinkassessment\\pages\\HomePage.js:2:1577)\n                   at <anonymous> (C:\\Users\\ntlam\\codelinkassessment\\pages\\HomePage.js:2:1742)\n                   at Object.<anonymous> (C:\\Users\\ntlam\\codelinkassessment\\pages\\HomePage.js:2:1483)\n                   at Object._openJob [as null] (C:\\Users\\ntlam\\codelinkassessment\\pages\\HomePage.js:19:22)\n                   at Object.openJob (C:\\Users\\ntlam\\codelinkassessment\\pages\\HomePage.js:16:31)\n                   at <anonymous> (C:\\Users\\ntlam\\codelinkassessment\\tests\\TC01_ApplyQAJob.js:25:20)\n                   at asyncGeneratorStep (C:\\Users\\ntlam\\codelinkassessment\\tests\\TC01_ApplyQAJob.js:3:1270)\n                   at _next (C:\\Users\\ntlam\\codelinkassessment\\tests\\TC01_ApplyQAJob.js:3:1608)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "TC01_ApplyQAJob"
+  }, {
+    "name" : "testClass",
+    "value" : "TC01_ApplyQAJob"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_ApplyQAJob"
+  }, {
+    "name" : "package",
+    "value" : "TC01_ApplyQAJob"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 95.0.4638.69 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e18f455665375bf3.json",
+  "parameterValues" : [ "Chrome 95.0.4638.69 / Windows 10" ]
+}

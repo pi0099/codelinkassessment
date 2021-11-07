@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TC01_ApplyQAJob",
+    "children" : [ {
+      "name" : "TC01_ApplyQAJob",
+      "uid" : "c190c2c236f3253c",
+      "parentUid" : "f60e5bb349e58432895ec8abbf0ee15e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636313922985,
+        "stop" : 1636313964477,
+        "duration" : 41492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 95.0.4638.69 / Windows 10" ]
+    } ],
+    "uid" : "f60e5bb349e58432895ec8abbf0ee15e"
+  } ]
+}

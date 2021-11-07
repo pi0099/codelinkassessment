@@ -1,0 +1,5 @@
+{
+  "selectorTimeout": 15000,
+  "assertionTimeout": 15000,
+  "skipJsErrors": true
+}

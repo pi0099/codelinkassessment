@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TC01_ApplyQAJob",
+    "children" : [ {
+      "name" : "TC01_ApplyQAJob",
+      "uid" : "c190c2c236f3253c",
+      "parentUid" : "a6e87b7f690385832da265690816cf36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636313922985,
+        "stop" : 1636313964477,
+        "duration" : 41492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 95.0.4638.69 / Windows 10" ]
+    } ],
+    "uid" : "a6e87b7f690385832da265690816cf36"
+  } ]
+}

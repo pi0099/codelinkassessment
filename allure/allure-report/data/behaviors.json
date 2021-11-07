@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "TC01_ApplyQAJob",
+    "uid" : "c190c2c236f3253c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1636313922985,
+      "stop" : 1636313964477,
+      "duration" : 41492
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 95.0.4638.69 / Windows 10" ]
+  } ]
+}

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636315232949' stop='1636315232992'>
+    <name>TC01_ApplyQAJob</name>
+    <title>TC01_ApplyQAJob</title>
+    <test-cases>
+        <test-case start='1636315232949' status='failed' stop='1636315267507'>
+            <name>TC01_ApplyQAJob</name>
+            <title>TC01_ApplyQAJob</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 95.0.4638.69 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>The specified selector does not match any element in the DOM tree.
+                
+                 > | Selector('#query')
+                
+                Browser: Chrome 95.0.4638.69 / Windows 10
+                
+                    5 |var btnSearch = Selector('[name="commit"]')
+                    6 |var cbbCity = Selector('[name="city"]')
+                    7 |var listJobs = Selector('#jobs')
+                    8 |
+                    9 |export async function searchJob(keyword) {
+                 > 10 |    await t.typeText(txtSearch, keyword)
+                   11 |    await t.click(btnSearch)
+                   12 |    //Wait for Job List to be loaded
+                   13 |    await listJobs.with({ visibilityCheck: true })()
+                   14 |}
+                   15 |
+                
+                   at Object.&lt;anonymous> (C:\Users\ntlam\codelinkassessment\pages\HomePage.js:10:13)
+                   at asyncGeneratorStep (C:\Users\ntlam\codelinkassessment\pages\HomePage.js:2:1239)
+                   at _next (C:\Users\ntlam\codelinkassessment\pages\HomePage.js:2:1577)
+                   at &lt;anonymous> (C:\Users\ntlam\codelinkassessment\pages\HomePage.js:2:1742)
+                   at Object.&lt;anonymous> (C:\Users\ntlam\codelinkassessment\pages\HomePage.js:2:1483)
+                   at Object._searchJob [as null] (C:\Users\ntlam\codelinkassessment\pages\HomePage.js:14:24)
+                   at Object.searchJob (C:\Users\ntlam\codelinkassessment\pages\HomePage.js:9:34)
+                   at &lt;anonymous> (C:\Users\ntlam\codelinkassessment\tests\TC01_ApplyQAJob.js:23:20)
+                   at asyncGeneratorStep (C:\Users\ntlam\codelinkassessment\tests\TC01_ApplyQAJob.js:3:1270)
+                   at _next (C:\Users\ntlam\codelinkassessment\tests\TC01_ApplyQAJob.js:3:1608)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

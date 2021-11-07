@@ -1,0 +1,63 @@
+{
+  "uid" : "c190c2c236f3253c",
+  "name" : "TC01_ApplyQAJob",
+  "fullName" : "TC01_ApplyQAJob.TC01_ApplyQAJob",
+  "historyId" : "9be3f79b2c5f7f62adfb823dcf3237d6",
+  "time" : {
+    "start" : 1636313922985,
+    "stop" : 1636313964477,
+    "duration" : 41492
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "TC01_ApplyQAJob"
+  }, {
+    "name" : "testClass",
+    "value" : "TC01_ApplyQAJob"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_ApplyQAJob"
+  }, {
+    "name" : "package",
+    "value" : "TC01_ApplyQAJob"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 95.0.4638.69 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e18f455665375bf3",
+      "status" : "failed",
+      "statusDetails" : "This test has been broken",
+      "time" : {
+        "start" : 1636313578155,
+        "stop" : 1636313613791,
+        "duration" : 35636
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c190c2c236f3253c.json",
+  "parameterValues" : [ "Chrome 95.0.4638.69 / Windows 10" ]
+}

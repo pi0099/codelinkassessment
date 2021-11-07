@@ -1,0 +1,31 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TC01_ApplyQAJob",
+    "uid" : "c190c2c236f3253c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1636313922985,
+      "stop" : 1636313964477,
+      "duration" : 41492
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 95.0.4638.69 / Windows 10" ]
+  }, {
+    "name" : "TC01_ApplyQAJob",
+    "uid" : "e18f455665375bf3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1636313578155,
+      "stop" : 1636313613791,
+      "duration" : 35636
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 95.0.4638.69 / Windows 10" ]
+  } ]
+}
